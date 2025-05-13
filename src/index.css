@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+@import "react-datepicker/dist/react-datepicker.css";
+
+.active {
+  background-color: var(--color-slate-950);
+}
+
+.current-city-active {
+  border: 2px solid var(--color-green-500);
+}
+
+#map {
+  height: 100%;
+}

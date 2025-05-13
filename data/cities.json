@@ -1,0 +1,52 @@
+{
+  "cities": [
+    {
+      "id": "855e",
+      "cityName": "Sidoarjo",
+      "countryName": "Indonesia",
+      "emoji": "🇮🇩",
+      "date": "2025-05-06T06:55:17.135Z",
+      "notes": "My home town",
+      "position": {
+        "lat": "-7.452270747685165",
+        "lng": "112.71518347622914"
+      }
+    },
+    {
+      "id": "a9ae",
+      "cityName": "Kuala Lumpur",
+      "countryName": "Malaysia",
+      "emoji": "🇲🇾",
+      "date": "2025-05-07T07:01:20.000Z",
+      "notes": "",
+      "position": {
+        "lat": "3.1176691480166956",
+        "lng": "101.68643146669241"
+      }
+    },
+    {
+      "id": "c008",
+      "cityName": "Bandar Seri Begawan",
+      "countryName": "Brunei Darussalam",
+      "emoji": "🇧🇳",
+      "date": "2025-05-08T07:01:55.000Z",
+      "notes": "",
+      "position": {
+        "lat": "4.8643492496661365",
+        "lng": "114.909650742164"
+      }
+    },
+    {
+      "id": "c70e",
+      "cityName": "Columbia",
+      "countryName": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2025-05-06T07:03:01.156Z",
+      "notes": "",
+      "position": {
+        "lat": "40.113193494271535",
+        "lng": "-88.95866828084269"
+      }
+    }
+  ]
+}
