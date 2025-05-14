@@ -11,7 +11,7 @@ const initialState = {
   currentCity: {},
 };
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://wiggly-glittery-handsaw.glitch.me";
 
 function CitiesProvider({ children }) {
   const [{ cities, isLoading, isLoadingItem, currentCity }, dispatch] = useReducer(reducer, initialState);
@@ -41,7 +41,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: "isLoading" });
 
       try {
-        const res = await fetch("http://localhost:8000/cities");
+        const res = await fetch("https://wiggly-glittery-handsaw.glitch.me/cities");
         const data = await res.json();
 
         dispatch({ type: "fetchCities", payload: data });
